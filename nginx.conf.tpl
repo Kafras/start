@@ -11,6 +11,9 @@ http {
   ##
   # Basic Settings
   ##
+  location /static {
+        alias/testPlaybook/var/www
+  }
   sendfile on;
   tcp_nopush on;
   tcp_nodelay on;
