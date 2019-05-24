@@ -1,1 +1,1 @@
-shell: sudo apt install wget
+command: 'sudo apt install wget'
